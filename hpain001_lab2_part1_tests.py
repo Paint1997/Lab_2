@@ -20,7 +20,7 @@ tests = [ {'description': 'PA0 & PA1 = 1 => PortB: 0x01 .',
     'expected': [('PORTB',0x01)],
     },
     ]
-#watch = ['PORTB"]
+#watch = ['PORTB']
 # Optionally you can add a set of "watch" variables these need to be global or static and may need
 # to be scoped at the function level (for static variables) if there are naming conflicts. The 
 # variables listed here will display everytime you hit (and stop at) a breakpoint
