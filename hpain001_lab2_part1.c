@@ -16,7 +16,7 @@ int main(void) {
         tmpA = PINA & 0x01;
         tmpB = PINA & 0x02;
 
-        if (tmpB == 0x02 && tmpA == 0x00){
+        if (tmpB == 0x00 && tmpA == 0x01){
         PORTB = 0x01;
 }
              else
